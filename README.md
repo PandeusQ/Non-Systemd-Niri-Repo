@@ -7,11 +7,9 @@ My personal dotfiles optimized for a lightweight, non-systemd Linux environment 
 | --- | --- |
 | Terminal | Alacritty |
 | Status Bar | Waybar |
-| Launcher | Fuzzel |
+| Launcher | Wofi |
 | Color Scheme | Matugen |
-| Notifications | Mako |
-| Wallpaper | Swww / Awww |
-| Color Picker | Grim + Slurp + ImageMagick |
+| Wallpaper | Awww |
 
 ## ⌨️ Important Hotkeys
 
