@@ -11,7 +11,8 @@ My personal dotfiles optimized for a lightweight, non-systemd Linux environment 
 - **[Wofi](https://hg.sr.ht/~scoopta/wofi)** — Application launcher
 - **[Cava](https://github.com/karlstav/cava)** — Console-based audio visualizer
 - **[Fastfetch](https://github.com/fastfetch-cli/fastfetch)** — System information fetch tool
+- **awww** — Wayland wallpaper daemon
 
 ## 🎨 Overview
 
-The colors and themes are dynamically generated using **Matugen** to maintain a unified aesthetic across all applications.
+Wallpapers are set via **awww-daemon**, while colors and themes across all applications are dynamically generated using **Matugen** to maintain a unified aesthetic.
