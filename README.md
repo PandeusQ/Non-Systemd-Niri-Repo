@@ -10,7 +10,7 @@ My personal dotfiles optimized for a lightweight, non-systemd Linux environment 
 | Status Bar | Waybar |
 | Launcher | Wofi |
 | Color Scheme | Matugen |
-| Wallpaper | / Awww |
+| Wallpaper | Awww |
 
 
 ## ⌨️ Keybindings
