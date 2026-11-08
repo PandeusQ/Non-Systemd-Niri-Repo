@@ -2,45 +2,43 @@
 
 My personal dotfiles optimized for a lightweight, non-systemd Linux environment centered around the **Niri** scrollable-tiling Wayland compositor.
 
-## 🛠️ Included Configurations
+## 🛠️ Components
+
 | Component | Software |
 | --- | --- |
 | Terminal | Alacritty |
 | Status Bar | Waybar |
 | Launcher | Wofi |
 | Color Scheme | Matugen |
-| Wallpaper | Awww |
+| Wallpaper | / Awww |
+
 
 ## ⌨️ Keybindings
 
-| Shortcuts | Action |
+| Shortcut | Action |
 | --- | --- |
-| `Mod + Q` | Open terminal |
-| `Mod + W` | Launcher (wofi toggle) |
-| `Mod + B` | Firefox |
-| `Mod + E` | File manager (nemo) |
-| `Mod + T` | Telegram |
-| `Mod + Tab` | Overview |
-| `Mod + C` | Close window |
-| `Mod + F` | Maximize |
-| `Mod + V` | Floating mode |
-| `Print` | Screenshot |
-| `F12` | Color picker |
-
-| Shortcuts | Action |
-| --- | --- |
-| `Mod + H/J/K/L` | Move focus |
-| `Mod + ← ↑ ↓ →` | Move focus |
-| `Mod + Ctrl + H/J/K/L` | Move window |
-| `Mod + Shift + H/J/K/L` | Monitors |
-
-## 🧱 Workspaces
-
-| Shortcuts | Action |
-| --- | --- |
-| `Mod + 1..9` | Switch workspace |
-| `Mod + Shift + 1..9` | Move window to workspace |
-| `Mod + U / I` | Workspace up / down |
+| `Super + Shift + /` | Show Important Hotkeys |
+| `Super + Shift + E` | Exit niri |
+| `Super + Q` | Close Focused Window |
+| `Super + Left` | Focus Column to the Left |
+| `Super + Right` | Focus Column to the Right |
+| `Super + Ctrl + Left` | Move Column Left |
+| `Super + Ctrl + Right` | Move Column Right |
+| `Super + Page Down` | Switch Workspace Down |
+| `Super + Page Up` | Switch Workspace Up |
+| `Super + Ctrl + Page Down` | Move Column to Workspace Down |
+| `Super + Ctrl + Page Up` | Move Column to Workspace Up |
+| `Super + R` | Switch Preset Column Widths |
+| `Super + F` | Maximize Column |
+| `Super + [` | Consume or Expel Window Left |
+| `Super + ]` | Consume or Expel Window Right |
+| `Super + V` | Move Window Between Floating and Tiling |
+| `Super + Shift + V` | Switch Focus Between Floating and Tiling |
+| `Super + O` | Open the Overview |
+| `PrtSc` | Take a Screenshot |
+| `Super + Enter` | Open a Terminal: alacritty |
+| `Super + D` | Run an Application: wofi |
+| `Super + E` | Spawn nautilus |
 
 ## 🎨 Overview
 
