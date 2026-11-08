@@ -3,30 +3,15 @@
 My personal dotfiles optimized for a lightweight, non-systemd Linux environment centered around the **Niri** scrollable-tiling Wayland compositor.
 
 ## 🛠️ Included Configurations
-### wm
-- **[Niri](https://github.com/YaLTeR/niri)** — Scrollable-tiling Wayland compositor
-
-### shell
-- **[Fish](https://fishshell.com/)** — Friendly interactive shell
-
-### terminal
-- **[Alacritty](https://github.com/alacritty/alacritty)** — GPU-accelerated terminal emulator
-
-### color generation
-- **[Matugen](https://github.com/InioX/matugen)** — Material You dynamic color generation
-
-### app launcher
-- **[Wofi](https://hg.sr.ht/~scoopta/wofi)** — Application launcher
-
-### audio visualizer
-- **[Cava](https://github.com/karlstav/cava)** — Console-based audio visualizer
-
-### fetch
-- **[Fastfetch](https://github.com/fastfetch-cli/fastfetch)** — System information fetch tool
-
-### wallpaper
-- **awww** — Wallpaper Wayland daemon
-
+| Component | Software |
+| --- | --- |
+| Terminal | Alacritty |
+| Status Bar | Waybar |
+| Launcher | Fuzzel |
+| Color Scheme | Matugen |
+| Notifications | Mako |
+| Wallpaper | Swww / Awww |
+| Color Picker | Grim + Slurp + ImageMagick |
 
 ## ⌨️ Important Hotkeys
 
