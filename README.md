@@ -4,21 +4,29 @@ My personal dotfiles optimized for a lightweight, non-systemd Linux environment 
 
 ## 🛠️ Included Configurations
 ### wm
-- Scrollable-tiling Wayland compositor — **[Niri](https://github.com/YaLTeR/niri)**
+- **[Niri](https://github.com/YaLTeR/niri)** — Scrollable-tiling Wayland compositor
+
 ### shell
-- Friendly interactive shell — **[Fish](https://fishshell.com/)**
+- **[Fish](https://fishshell.com/)** — Friendly interactive shell
+
 ### terminal
-- GPU-accelerated terminal emulator — **[Alacritty](https://github.com/alacritty/alacritty)**
+- **[Alacritty](https://github.com/alacritty/alacritty)** — GPU-accelerated terminal emulator
+
 ### color generation
-- Material You dynamic color generation — **[Matugen](https://github.com/InioX/matugen)**
+- **[Matugen](https://github.com/InioX/matugen)** — Material You dynamic color generation
+
 ### app launcher
-- Application launcher — **[Wofi](https://hg.sr.ht/~scoopta/wofi)**
+- **[Wofi](https://hg.sr.ht/~scoopta/wofi)** — Application launcher
+
 ### audio visualizer
-- Console-based audio visualizer — **[Cava](https://github.com/karlstav/cava)**
+- **[Cava](https://github.com/karlstav/cava)** — Console-based audio visualizer
+
 ### fetch
-- System information fetch tool — **[Fastfetch](https://github.com/fastfetch-cli/fastfetch)**
+- **[Fastfetch](https://github.com/fastfetch-cli/fastfetch)** — System information fetch tool
+
 ### wallpaper
-- Wallpaper Wayland daemon — **awww**
+- **awww** — Wallpaper Wayland daemon
+
 
 ## ⌨️ Important Hotkeys
 
