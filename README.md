@@ -5,7 +5,7 @@ My personal dotfiles optimized for a lightweight, non-systemd Linux environment 
 ## 🛠️ Included Configurations
 ### wm
 - Scrollable-tiling Wayland compositor — **[Niri](https://github.com/YaLTeR/niri)**
-###shell
+### shell
 - Friendly interactive shell — **[Fish](https://fishshell.com/)**
 ### terminal
 - GPU-accelerated terminal emulator — **[Alacritty](https://github.com/alacritty/alacritty)**
