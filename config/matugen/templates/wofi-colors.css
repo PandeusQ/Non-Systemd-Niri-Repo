@@ -1,0 +1,8 @@
+/* Wofi Matugen Solid Colors */
+@define-color bg {{colors.surface.dark.hex}};
+@define-color bg_input {{colors.surface_container.dark.hex}};
+@define-color fg {{colors.on_surface.dark.hex}};
+@define-color primary {{colors.primary.dark.hex}};
+@define-color primary_container {{colors.primary_container.dark.hex}};
+@define-color on_primary_container {{colors.on_primary_container.dark.hex}};
+@define-color border {{colors.outline.dark.hex}};

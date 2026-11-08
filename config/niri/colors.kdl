@@ -1,0 +1,11 @@
+// Niri Matugen Colors
+layout {
+    focus-ring {
+        active-color "#ecc06c"
+        inactive-color "#241f17"
+    }
+    border {
+        active-color "#ecc06c"
+        inactive-color "#201b13"
+    }
+}

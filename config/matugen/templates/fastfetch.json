@@ -1,0 +1,71 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "small",
+    "source": "gentoo",
+    "color": {
+      "1": "38;2;100;100;100",
+      "2": "38;2;150;150;150",
+      "3": "{{colors.primary.default.hex}}",
+      "4": "38;2;100;100;100",
+      "5": "38;2;150;150;150",
+      "6": "{{colors.primary.default.hex}}"
+    },
+    "padding": {
+      "top": 1,
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": " ♡ ",
+    "color": {
+      "keys": "{{colors.primary.default.hex}}",
+      "title": "{{colors.primary.default.hex}}",
+      "output": "{{colors.on_surface.default.hex}}"
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "{{colors.primary.default.hex}}",
+        "at": "38;2;150;150;150",
+        "host": "{{colors.primary.default.hex}}"
+      },
+      "format": "\u001b[38;2;150;150;150m♡\u001b[0m {user-name}@{host-name} \u001b[38;2;150;150;150m♡\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "------------------"
+    },
+    {
+      "type": "os",
+      "key": "Distro"
+    },
+    {
+  "type": "kernel",
+  "key": "Kernel",
+  "format": "Linux 6.18.60-gentoo-dist"
+    },
+    {
+      "type": "wm",
+      "key": "Wm"
+    },
+    {
+      "type": "shell",
+      "key": "Shell"
+    },
+    {
+      "type": "packages",
+      "key": "Pkgs"
+    },
+    {
+      "type": "uptime",
+      "key": "Uptime"
+    },
+    {
+      "type": "colors",
+      "symbol": "square"
+    }
+]
+}

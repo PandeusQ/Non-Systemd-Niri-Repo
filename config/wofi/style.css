@@ -1,0 +1,63 @@
+@import "/home/pandeus/.config/wofi/colors.css";
+
+* {
+    font-family: "CozetteVector", "monospace";
+    font-size: 13px;
+    caret-color: transparent;
+    outline: none;
+}
+
+window {
+    margin: 0px;
+    border: 2px solid @border;
+    border-radius: 0px;
+    /* Устанавливаем 85% прозрачность (0.85) через alpha-канал */
+    background-color: alpha(@bg, 0.85);
+}
+
+#outer-box, 
+#inner-box, 
+#scroll {
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+#input {
+    margin: 8px;
+    border: 1px solid @border;
+    border-radius: 0px;
+    color: @fg;
+    background-color: alpha(@bg, 0.95);
+    padding: 6px 8px;
+    box-shadow: none;
+}
+
+#input:focus {
+    border: 1px solid @primary;
+}
+
+#text {
+    margin: 2px 4px;
+    border: none;
+    color: @fg;
+    background-color: transparent;
+}
+
+#entry {
+    padding: 4px 8px;
+    background-color: transparent;
+}
+
+#entry:focus,
+#entry:selected {
+    background-color: @primary_container;
+    outline: none;
+    box-shadow: none;
+}
+
+#entry:selected #text,
+#entry:focus #text {
+    color: @on_primary_container;
+    font-weight: bold;
+}

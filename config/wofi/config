@@ -1,0 +1,14 @@
+mode=drun
+show=drun
+insensitive=true
+prompt=
+width=18%
+height=65%
+location=center
+always_parse_args=true
+matching=fuzzy
+allow_images=true
+image_size=16
+hide_scroll=true
+no_actions=true
+sort_order=default

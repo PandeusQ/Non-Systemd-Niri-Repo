@@ -1,0 +1,11 @@
+// Niri Matugen Colors
+layout {
+    focus-ring {
+        active-color "{{colors.primary.dark.hex}}"
+        inactive-color "{{colors.surface_container.dark.hex}}"
+    }
+    border {
+        active-color "{{colors.primary.dark.hex}}"
+        inactive-color "{{colors.surface_container_low.dark.hex}}"
+    }
+}
